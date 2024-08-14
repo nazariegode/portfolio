@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home-name {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: black;
+}
+
+.home-profession {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+}

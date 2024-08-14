@@ -1,12 +1,16 @@
+body {
+    background-color: #008170;
+}
 
-/* 
+.tittle {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.info-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}

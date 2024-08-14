@@ -1,0 +1,101 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.about-image-container,
+.about-text-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-text-container {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.education-skills-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-circle {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    overflow: hidden;
+}
+
+.card {
+    background-color: #ffffff6f;
+    border: solid #0F0F0F;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #008170;
+    border: solid #0F0F0F;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.btn:hover {
+    background-color: #0F0F0F;
+    border: solid #008170;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.card-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    color: #0F0F0F
+}
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: #0F0F0F
+}

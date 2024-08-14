@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.home-image-container,
+.home-text-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.home-text-container {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.home-name {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    font-style: normal;
+}
+
+.home-profession {
+    color: #005B41;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        /* Coloca la imagen y el texto en una columna */
+        text-align: center;
+        /* Centra el texto para pantallas pequeñas */
+    }
+
+    .home-text-container {
+        padding: 10px;
+    }
+}
