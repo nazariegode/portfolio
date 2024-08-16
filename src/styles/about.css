@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     flex-wrap: wrap;
 }
 
@@ -21,7 +21,7 @@
 
 .about-text-container {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .education-skills-container {
@@ -65,6 +65,9 @@
     font-style: normal;
 }
 
+
+
+
 .btn {
     background-color: #008170;
     border: solid #0F0F0F;
@@ -89,7 +92,10 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
     font-style: normal;
-    color: #0F0F0F
+    color: #0F0F0F;
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
 .card-text {
@@ -97,5 +103,10 @@
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
-    color: #0F0F0F
+    color: #0F0F0F;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 0px;
+    padding: 0px;
 }

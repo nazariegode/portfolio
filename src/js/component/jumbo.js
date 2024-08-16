@@ -1,15 +1,15 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
-import devImage from '../../img/header.png';
+import devImage from '../../img/dn4.png';
 import '../../styles/jumbo.css';
 
 const Jumbo = () => {
     return (
-        <div className="home d-flex align-items-center justify-content-center">
+        <div className="container d-flex align-items-center justify-content-center" id="Jumbo">
             <div className="home-text-container">
                 <h3 className="info-text mb-0">Hi! I'm </h3>
                 <h1 className="home-name mb-0">David Nazariego</h1>
-                <h2 className="info-text mb-0">
+                <h2 className="info-text text-white mb-0">
                     <Typewriter
                         options={{
                             strings: ['Full Stack Developer', 'Front-End Developer', 'Back-End Developer', 'Scrum Master', 'UI Designer'],

@@ -13,16 +13,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">HOME</a>
+                            <a className="nav-link" href="#Jumbo">HOME</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#AboutMe">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="#ProjectGallery">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Me</a>
+                            <a className="nav-link" href="#ContactMe">Contact Me</a>
                         </li>
                     </ul>
                 </div>

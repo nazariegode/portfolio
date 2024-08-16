@@ -1,22 +1,20 @@
 import React from "react";
 import Navbar from "./navbar";
-import Cards from "./cards";
 import Jumbo from "./jumbo";
 import Contact from "./contactme";
 import AboutMe from "./aboutme";
+import ProjectGallery from "./projects";
 
 
 const Home = () => {
     return (
-        /* <section /* style={{ backgroundImage: `url(${fondo})`, backgroundPosition: "center" }} */
         <>
             <Navbar />,
             <Jumbo />,
             <AboutMe />
-            <Cards />,
+            <ProjectGallery />
             <Contact />,
         </>
-        /* </section> */
     )
 }
 
