@@ -40,11 +40,12 @@ const AboutMe = () => {
                 {/* EDUCATION */}
                 <div className="col-12 mb-5 about-text-container" id='Education'>
                     <h2 className="tittle mb-3"><i className="bi bi-caret-right-fill"></i>Education</h2>
+                    
                     <div className="card w-100 mb-3">
                         <div className="card-body">
                             <h5 className="card-title">4GEEKS ACADEMY</h5>
-                            <p className="card-text">Fullstack Developer</p>
-                            <a href="https://www.coderhouse.com/cl/certificados/652e91407999ed426bc2f1d4?lang=es" className="btn" target="_blank" rel="noopener noreferrer">See Certificate</a>
+                            <p className="card-text">Fullstack Software Developer</p>
+                            <a href="https://certificate.4geeks.com/pdf/b12f04ffa76695c3bf09b17ef845fc74bff2162a" className="btn" target="_blank" rel="noopener noreferrer">See Certificate</a>
                         </div>
                     </div>
 
@@ -81,22 +82,21 @@ const AboutMe = () => {
                 <div className="about col-12 d-flex align-items-center justify-content-center mb-5" id='AboutMe'>
                     <div className="about-text-container">
                         <h2 className="tittle"><i className="bi bi-caret-right-fill"></i>Experience</h2>
+                        
                         <div className="card mb-3">
                             <div className="row g-0">
-
                                 <div className="card-body">
-                                    <h5 className="card-title">AMOSFT SPA</h5>
+                                    <h5 className="card-title">AMSOFT SPA</h5>
                                     <p className="card-text">Human Resource Lead</p>
                                     <p className="card-text"><strong>Jan-Dec 2024</strong></p>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="card mb-3">
+                        
+                          <div className="card mb-3">
                             <div className="row g-0">
-
                                 <div className="card-body">
-                                    <h5 className="card-title">Easy Retail SA</h5>
+                                    <h5 className="card-title">COTELSA SA</h5>
                                     <p className="card-text">Human Resource Lead</p>
                                     <p className="card-text"><strong>Jan-Dec 2023</strong></p>
                                 </div>
@@ -106,9 +106,19 @@ const AboutMe = () => {
                         <div className="card mb-3">
                             <div className="row g-0">
                                 <div className="card-body">
-                                    <h5 className="card-title">Mc Donalds</h5>
+                                    <h5 className="card-title">Easy Retail SA</h5>
                                     <p className="card-text">Human Resource Lead</p>
                                     <p className="card-text"><strong>Jan-Dec 2022</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card mb-3">
+                            <div className="row g-0">
+                                <div className="card-body">
+                                    <h5 className="card-title">Mc Donalds</h5>
+                                    <p className="card-text">Human Resource Lead</p>
+                                    <p className="card-text"><strong>Jan-Dec 2021</strong></p>
                                 </div>
                             </div>
                         </div>
