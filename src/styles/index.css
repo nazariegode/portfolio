@@ -1,16 +1,16 @@
 body {
-    background-color: #008170;
+    background-color: #6982AF;
 }
 
 .tittle {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
 }
 
 .info-text {
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     font-style: normal;
 }

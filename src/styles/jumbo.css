@@ -9,10 +9,18 @@
     flex-wrap: wrap;
 }
 
+.social {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 .home-image-container,
 .home-text-container {
     flex: 1;
     margin: 10px;
+    max-width: 100%;
 }
 
 .home-image {
@@ -21,6 +29,7 @@
 }
 
 .home-text-container {
+    max-width: 100%;
     text-align: left;
     padding: 20px;
 }
@@ -29,22 +38,27 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 100px;
     font-style: normal;
+    color: #41413D;
 }
 
 .home-profession {
-    color: #005B41;
+    color: #41413D;
 }
 
 /* Media Query para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .home-container {
+    .container {
         flex-direction: column;
         /* Coloca la imagen y el texto en una columna */
-        text-align: center;
-        /* Centra el texto para pantallas pequeñas */
+    }
+
+    .home-image-container {
+        order: 2;
     }
 
     .home-text-container {
-        padding: 50px;
+        order: 1;
+        text-align: left;
+        padding: 20px;
     }
 }

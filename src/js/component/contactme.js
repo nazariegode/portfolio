@@ -85,6 +85,7 @@ const ContactMe = () => {
                             <p className='git'>
                                 <i className="bi bi-envelope-fill"></i> dnazariego@gmail.com
                             </p>
+                           
                             <img src={devImage} alt="Developer" className="contact-image position-absolute" />
                         </div>
                     </div>

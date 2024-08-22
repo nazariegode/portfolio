@@ -6,6 +6,8 @@
     flex-wrap: wrap;
 }
 
+
+
 .about-image-container,
 .about-text-container {
     flex: 1;
@@ -39,8 +41,10 @@
 
 .skills-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 25px;
 }
 
 .skill-circle {
@@ -49,15 +53,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    border: 2px solid #ddd;
+    border-radius: 20%;
+    border: 1px solid #41413D;
     overflow: hidden;
 }
 
 .card {
     background-color: #ffffff6f;
-    border: solid #0F0F0F;
+    border: solid 1px #0F0F0F;
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -66,11 +69,9 @@
 }
 
 
-
-
 .btn {
-    background-color: #008170;
-    border: solid #0F0F0F;
+    background-color: #6982AF;
+    border: solid 1px #0F0F0F;
     border-radius: 5px;
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
@@ -80,7 +81,7 @@
 
 .btn:hover {
     background-color: #0F0F0F;
-    border: solid #008170;
+    border: solid #6982AF;
     border-radius: 5px;
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
