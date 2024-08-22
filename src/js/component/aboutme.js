@@ -42,12 +42,18 @@ const AboutMe = () => {
                 {/* EDUCATION */}
                 <div className="col-12 mb-5 about-text-container" id='Education'>
                     <h2 className="tittle mb-3"><i className="bi bi-caret-right-fill"></i>Education</h2>
+                    
                     <div className="card w-100 mb-3">
                         <div className="card-body">
                             <h5 className="card-title">4GEEKS ACADEMY</h5>
+<<<<<<< HEAD
                             <p className="card-text">Fullstack Developer</p>
                             <p className="card-text"><strong>Ago-2024</strong></p>
                             <a href="https://certificate.4geeks.com/b12f04ffa76695c3bf09b17ef845fc74bff2162a" className="btn" target="_blank" rel="noopener noreferrer">See Certificate</a>
+=======
+                            <p className="card-text">Fullstack Software Developer</p>
+                            <a href="https://certificate.4geeks.com/pdf/b12f04ffa76695c3bf09b17ef845fc74bff2162a" className="btn" target="_blank" rel="noopener noreferrer">See Certificate</a>
+>>>>>>> refs/remotes/origin/main
                         </div>
                     </div>
 
@@ -85,6 +91,7 @@ const AboutMe = () => {
                 <div className="about col-12 d-flex align-items-center justify-content-center mb-5" id='AboutMe'>
                     <div className="about-text-container">
                         <h2 className="tittle"><i className="bi bi-caret-right-fill"></i>Experience</h2>
+<<<<<<< HEAD
 
                         <div className="card mb-3">
                             <div className="row g-0">
@@ -92,12 +99,22 @@ const AboutMe = () => {
                                     <h5 className="card-title">NO-Country</h5>
                                     <p className="card-text">Front-End Developer</p>
                                     <p className="card-text"><strong>Ago-2024 / Actual</strong></p>
+=======
+                        
+                        <div className="card mb-3">
+                            <div className="row g-0">
+                                <div className="card-body">
+                                    <h5 className="card-title">AMSOFT SPA</h5>
+                                    <p className="card-text">Human Resource Lead</p>
+                                    <p className="card-text"><strong>Jan-Dec 2024</strong></p>
+>>>>>>> refs/remotes/origin/main
                                 </div>
                             </div>
                         </div>
-
-                        <div className="card mb-3">
+                        
+                          <div className="card mb-3">
                             <div className="row g-0">
+<<<<<<< HEAD
                                 <div className="card-body">
                                     <h5 className="card-title">AMSOFT SPA</h5>
                                     <p className="card-text">Human Resource Lead</p>
@@ -118,8 +135,10 @@ const AboutMe = () => {
 
                         <div className="card mb-3">
                             <div className="row g-0">
+=======
+>>>>>>> refs/remotes/origin/main
                                 <div className="card-body">
-                                    <h5 className="card-title">Easy Retail SA</h5>
+                                    <h5 className="card-title">COTELSA SA</h5>
                                     <p className="card-text">Human Resource Lead</p>
                                     <p className="card-text"><strong>May-2018 / Mar-2019</strong></p>
                                 </div>
@@ -129,9 +148,25 @@ const AboutMe = () => {
                         <div className="card mb-3">
                             <div className="row g-0">
                                 <div className="card-body">
+<<<<<<< HEAD
                                     <h5 className="card-title">Mc Donald's</h5>
                                     <p className="card-text">Team Leader</p>
                                     <p className="card-text"><strong>Jan-2017 / Apr-2018</strong></p>
+=======
+                                    <h5 className="card-title">Easy Retail SA</h5>
+                                    <p className="card-text">Human Resource Lead</p>
+                                    <p className="card-text"><strong>Jan-Dec 2022</strong></p>
+>>>>>>> refs/remotes/origin/main
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card mb-3">
+                            <div className="row g-0">
+                                <div className="card-body">
+                                    <h5 className="card-title">Mc Donalds</h5>
+                                    <p className="card-text">Human Resource Lead</p>
+                                    <p className="card-text"><strong>Jan-Dec 2021</strong></p>
                                 </div>
                             </div>
                         </div>
