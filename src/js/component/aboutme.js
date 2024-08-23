@@ -134,16 +134,6 @@ const AboutMe = () => {
                             </div>
                         </div>
 
-                        <div className="card mb-3">
-                            <div className="row g-0">
-                                <div className="card-body">
-                                    <h5 className="card-title">Mc Donalds</h5>
-                                    <p className="card-text">Human Resource Lead</p>
-                                    <p className="card-text"><strong>Jan-Dec 2021</strong></p>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                     <div className="about-image-container">

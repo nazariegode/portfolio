@@ -9,11 +9,11 @@ import ProjectGallery from "./projects";
 const Home = () => {
     return (
         <>
-            <Navbar />,
-            <Jumbo />,
+            <Navbar />
+            <Jumbo />
             <AboutMe />
             <ProjectGallery />
-            <Contact />,
+            <Contact />
         </>
     )
 }

@@ -31,12 +31,11 @@ const Jumbo = () => {
                     <a href='https://github.com/nazariegode' target="_blank" rel="noopener noreferrer">
                         <i className="bi bi-github ms-2"></i>
                     </a>
-                    <a href='https://github.com/nazariegode/CV/raw/main/David%20Nazariego%20Developer.pdf' download="DavidNazariegoCV.pdf">
+                    <a href='https://github.com/nazariegode/CV/raw/main/David%20Nazariego%20Developer.pdf' target="_blank" download="DavidNazariegoCV.pdf" rel="noopener noreferrer">
                         <i className="bi bi-download ms-2"></i>
                     </a>
                 </div>
             </div>
-
         </div>
     )
 }

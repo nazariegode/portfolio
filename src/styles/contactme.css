@@ -1,11 +1,9 @@
 .contact-me {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px;
     flex-wrap: wrap;
 }
-
 
 
 .form-contact {
@@ -79,8 +77,6 @@
 .info-box {
     position: relative;
     z-index: 1;
-    overflow: hidden;
-    /* Oculta cualquier contenido que se salga del contenedor */
 }
 
 .contact-image {

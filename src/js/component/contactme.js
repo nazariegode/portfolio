@@ -67,8 +67,8 @@ const ContactMe = () => {
 
     return (
         <>
-            <div className="contact-me container my-5" id='ContactMe'>
-                <h2 className="tittle mb-4"><i class="bi bi-caret-right-fill"></i>Contact Me</h2>
+            <div className="contact-me container" id='ContactMe'>
+                <h2 className="tittle mb-3"><i class="bi bi-caret-right-fill"></i>Contact Me</h2>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="info-box position-relative">
@@ -85,7 +85,7 @@ const ContactMe = () => {
                             <p className='git'>
                                 <i className="bi bi-envelope-fill"></i> dnazariego@gmail.com
                             </p>
-                           
+
                             <img src={devImage} alt="Developer" className="contact-image position-absolute" />
                         </div>
                     </div>

@@ -5,7 +5,13 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="nav-link navbar-brand" href="#Jumbo">David Nazariego</a>
+                {/* Iniciales para pantallas pequeñas */}
+                <span className="navbar-brand d-lg-none" href="#Jumbo">DN</span>
+
+                {/* Nombre completo para pantallas grandes */}
+                <a className="nav-link navbar-brand d-none d-lg-block" href="#Jumbo">David Nazariego</a>
+
+                {/* Botón de hamburguesa */}
                 <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -24,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav >
     );
 };
 

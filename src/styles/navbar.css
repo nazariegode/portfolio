@@ -24,27 +24,26 @@
 }
 
 /* Media queries para pantallas pequeñas */
-@media (max-width: 767.98px) {
-    .sidebar.collapse {
-        transform: translateX(-100%);
+@media (max-width: 992px) {
+
+    /* Ocultar el nombre completo en pantallas pequeñas */
+    .navbar-brand.d-none {
+        display: none !important;
+        color: #6982AF;
+        text-decoration: none;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        font-style: normal;
     }
 
-    .sidebar.show {
-        transform: translateX(0);
-    }
-
-
-
-    .navbar-brand::after {
-        content: "";
-    }
-
-    .navbar-brand {
-        visibility: hidden;
-    }
-
-    .navbar-brand::after {
-        visibility: visible;
+    /* Mostrar iniciales en pantallas pequeñas */
+    .navbar-brand.d-lg-none {
+        display: block !important;
+        color: #6982AF;
+        text-decoration: none;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 25px;
+        font-style: normal;
     }
 }
 
