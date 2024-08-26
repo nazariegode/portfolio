@@ -9,7 +9,7 @@
 .form-contact {
     transition: transform 0.3s;
     background-color: #ffffff6f;
-    border: solid #0F0F0F;
+    border: solid 1px #0F0F0F;
     color: white;
     font-family: "Roboto", sans-serif;
     font-size: 20px;

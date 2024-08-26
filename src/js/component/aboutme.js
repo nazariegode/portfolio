@@ -2,19 +2,18 @@ import React from 'react';
 import devImage from '../../img/dn5.png';
 import devImage2 from '../../img/dn6.png';
 import '../../styles/about.css';
-import html from '../../img/html.png';
-import css from '../../img/css.png';
-import js from '../../img/js.png';
-import node from '../../img/node.png';
-import bst from '../../img/bootstrap.png';
-import flask from '../../img/flask.png';
-import git from '../../img/git.png';
-import github from '../../img/github.png';
-import npm from '../../img/npm.png';
-import postgres from '../../img/postgres.png';
-import python from '../../img/python.png';
-import react from '../../img/react.png';
-import tailwind from '../../img/tailwind.png';
+import html from '../../img/HTML.png';
+import css from '../../img/CSS.png';
+import js from '../../img/JS.png';
+import node from '../../img/Node.png';
+import bst from '../../img/Bootstrap.png';
+import flask from '../../img/Flask.png';
+import git from '../../img/Git.png';
+import github from '../../img/Github.png';
+import sql from '../../img/SQL.png';
+import saas from '../../img/Saas.png';
+import python from '../../img/Python.png';
+import react from '../../img/React.png';
 
 const AboutMe = () => {
     return (
@@ -65,17 +64,16 @@ const AboutMe = () => {
                     <div className="skills-container d-flex flex-wrap">
                         <img src={html} className="skill-circle" alt="HTML" />
                         <img src={css} className="skill-circle" alt="CSS" />
-                        <img src={js} className="skill-circle" alt="JavaScript" />
-                        <img src={react} className="skill-circle" alt="React" />
-                        <img src={git} className="skill-circle" alt="Git" />
-                        <img src={node} className="skill-circle" alt="Node.js" />
-                        <img src={bst} className="skill-circle" alt="Bootstrap" />
-                        <img src={tailwind} className="skill-circle" alt="Tailwind CSS" />
-                        <img src={github} className="skill-circle" alt="GitHub" />
-                        <img src={npm} className="skill-circle" alt="npm" />
-                        <img src={postgres} className="skill-circle" alt="PostgreSQL" />
-                        <img src={flask} className="skill-circle" alt="Flask" />
-                        <img src={python} className="skill-circle" alt="Python" />
+                        <img src={bst} className="skill-circle" alt="Bootstrap" /> 
+                        <img src={js} className="skill-circle" alt="JavaScript" /> 
+                        <img src={react} className="skill-circle" alt="React" /> 
+                        <img src={git} className="skill-circle" alt="Git" /> 
+                        <img src={node} className="skill-circle" alt="Node.js" /> 
+                        <img src={github} className="skill-circle" alt="GitHub" /> 
+                        <img src={sql} className="skill-circle" alt="sql" /> 
+                        <img src={saas} className="skill-circle" alt="saas" /> 
+                        <img src={flask} className="skill-circle" alt="Flask" /> 
+                        <img src={python} className="skill-circle" alt="Python" /> 
                     </div>
                 </div>
 
@@ -117,7 +115,7 @@ const AboutMe = () => {
                         <div className="card mb-3">
                             <div className="row g-0">
                                 <div className="card-body">
-                                    <h5 className="card-title">COTELSA SA</h5>
+                                    <h5 className="card-title">Easy Retail SA</h5>
                                     <p className="card-text">Human Resource Lead</p>
                                     <p className="card-text"><strong>May-2018 / Mar-2019</strong></p>
                                 </div>
