@@ -12,7 +12,7 @@ const projects = [
         title: 'Geek Food',
         description: 'Website for the sale of fast food.',
         image: projectImage1,
-        projectUrl: 'https://link-to-project1.com',
+        projectUrl: 'https://geekfood-three.vercel.app/',
         codeUrl: 'https://github.com/nazariegode/geekfood'
     },
     {
