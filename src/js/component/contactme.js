@@ -77,10 +77,10 @@ const ContactMe = () => {
                                 Always available for freelancing or Full time jobs if the right project comes along, Feel free to contact me.
                             </p>
                             <p className='git'>
-                                <i className="bi bi-geo-alt-fill"></i> Santiago, Chile
+                                <i className="bi bi-geo-alt-fill"></i> Drogheda, Ireland
                             </p>
                             <p className='git'>
-                                <i className="bi bi-telephone-fill"></i> +569 64040431
+                                <i className="bi bi-telephone-fill"></i> +353 89 954 4014
                             </p>
                             <p className='git'>
                                 <i className="bi bi-envelope-fill"></i> dnazariego@gmail.com

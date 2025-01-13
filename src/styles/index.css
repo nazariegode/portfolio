@@ -1,11 +1,12 @@
 body {
-    background-color: #6982AF;
+    background-color: #0b60ff;
 }
 
 .tittle {
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     font-style: normal;
+    color: rgb(0, 0, 0);
 }
 
 .info-text {

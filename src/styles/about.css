@@ -57,11 +57,12 @@
     border: 1px solid #41413D;
     overflow: hidden;
     background-color: #ffffff;
+    ;
 
 }
 
 .card {
-    background-color: #ffffff6f;
+    background-color: #ffffff;
     border: solid 1px #0F0F0F;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -72,7 +73,7 @@
 
 
 .btn {
-    background-color: #6982AF;
+    background-color: #0b60ff;
     border: solid 1px #0F0F0F;
     border-radius: 5px;
     text-decoration: none;
@@ -82,7 +83,7 @@
 }
 
 .btn:hover {
-    background-color: #0F0F0F;
+    background-color: #0b60ff;
     border: solid #6982AF;
     border-radius: 5px;
     text-decoration: none;

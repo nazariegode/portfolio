@@ -14,6 +14,12 @@ import sql from '../../img/SQL.png';
 import saas from '../../img/Saas.png';
 import python from '../../img/Python.png';
 import react from '../../img/React.png';
+import wordpress from '../../img/wordpress.png';
+import canva from '../../img/canva.png';
+import tailwind from '../../img/tailwind.png';
+import claudinary from '../../img/claudinary.png';
+import firebase from '../../img/firebase.png';
+import vercel from '../../img/vercel.png';
 
 const AboutMe = () => {
     return (
@@ -64,16 +70,22 @@ const AboutMe = () => {
                     <div className="skills-container d-flex flex-wrap">
                         <img src={html} className="skill-circle" alt="HTML" />
                         <img src={css} className="skill-circle" alt="CSS" />
-                        <img src={bst} className="skill-circle" alt="Bootstrap" /> 
-                        <img src={js} className="skill-circle" alt="JavaScript" /> 
-                        <img src={react} className="skill-circle" alt="React" /> 
-                        <img src={git} className="skill-circle" alt="Git" /> 
-                        <img src={node} className="skill-circle" alt="Node.js" /> 
-                        <img src={github} className="skill-circle" alt="GitHub" /> 
-                        <img src={sql} className="skill-circle" alt="sql" /> 
-                        <img src={saas} className="skill-circle" alt="saas" /> 
-                        <img src={flask} className="skill-circle" alt="Flask" /> 
-                        <img src={python} className="skill-circle" alt="Python" /> 
+                        <img src={js} className="skill-circle" alt="JavaScript" />
+                        <img src={react} className="skill-circle" alt="React" />
+                        <img src={saas} className="skill-circle" alt="saas" />
+                        <img src={tailwind} className="skill-circle" alt="tailwind" />
+                        <img src={bst} className="skill-circle" alt="Bootstrap" />
+                        <img src={git} className="skill-circle" alt="Git" />
+                        <img src={github} className="skill-circle" alt="GitHub" />
+                        <img src={node} className="skill-circle" alt="Node.js" />
+                        <img src={sql} className="skill-circle" alt="sql" />
+                        <img src={flask} className="skill-circle" alt="Flask" />
+                        <img src={python} className="skill-circle" alt="Python" />
+                        <img src={canva} className="skill-circle" alt="Canva" />
+                        <img src={wordpress} className="skill-circle" alt="Wordpress" />
+                        <img src={claudinary} className="skill-circle" alt="claudinary" />
+                        <img src={firebase} className="skill-circle" alt="firebase" />
+                        <img src={vercel} className="skill-circle" alt="vercel" />
                     </div>
                 </div>
 
@@ -86,8 +98,9 @@ const AboutMe = () => {
                             <div className="row g-0">
                                 <div className="card-body">
                                     <h5 className="card-title">NO-Country</h5>
-                                    <p className="card-text">Front-End Developer</p>
-                                    <p className="card-text"><strong>Ago-2024 / Actual</strong></p>
+                                    <p className="card-text"><strong>Role:</strong> Front-End Developer</p>
+                                    <p className="card-text"><strong>Period:</strong> Ago-2024 / Actual</p>
+                                    <p className="card-text"><strong>Located:</strong> Santiago, Chile</p>
                                 </div>
                             </div>
                         </div>
@@ -96,8 +109,9 @@ const AboutMe = () => {
                             <div className="row g-0">
                                 <div className="card-body">
                                     <h5 className="card-title">AMSOFT SPA</h5>
-                                    <p className="card-text">Human Resource Lead</p>
-                                    <p className="card-text"><strong>Nov-2022 / May-2024</strong></p>
+                                    <p className="card-text"><strong>Role:</strong> Human Resource Lead</p>
+                                    <p className="card-text"><strong>Period:</strong> Nov-2022 / May-2024</p>
+                                    <p className="card-text"><strong>Located:</strong> Santiago, Chile</p>
                                 </div>
                             </div>
                         </div>
@@ -106,8 +120,9 @@ const AboutMe = () => {
                             <div className="row g-0">
                                 <div className="card-body">
                                     <h5 className="card-title">Madeco by NEXAN's</h5>
-                                    <p className="card-text">Human Resource Lead</p>
-                                    <p className="card-text"><strong>Mar-2019 / Nov-2021</strong></p>
+                                    <p className="card-text"><strong>Role:</strong> Human Resource Lead</p>
+                                    <p className="card-text"><strong>Period:</strong> Mar-2019 / Nov-2021</p>
+                                    <p className="card-text"><strong>Located:</strong> Santiago, Chile</p>
                                 </div>
                             </div>
                         </div>
@@ -116,8 +131,9 @@ const AboutMe = () => {
                             <div className="row g-0">
                                 <div className="card-body">
                                     <h5 className="card-title">Easy Retail SA</h5>
-                                    <p className="card-text">Human Resource Lead</p>
-                                    <p className="card-text"><strong>May-2018 / Mar-2019</strong></p>
+                                    <p className="card-text"><strong>Role:</strong> Human Resource Lead</p>
+                                    <p className="card-text"><strong>Period:</strong> May-2018 / Mar-2019</p>
+                                    <p className="card-text"><strong>Located:</strong> Santiago, Chile</p>
                                 </div>
                             </div>
                         </div>
@@ -126,11 +142,14 @@ const AboutMe = () => {
                             <div className="row g-0">
                                 <div className="card-body">
                                     <h5 className="card-title">Mc Donald's</h5>
-                                    <p className="card-text">Team Leader</p>
-                                    <p className="card-text"><strong>Jan-2017 / Apr-2018</strong></p>
+                                    <p className="card-text"><strong>Role:</strong> Team Leader</p>
+                                    <p className="card-text"><strong>Period:</strong> Jan-2017 / Apr-2018</p>
+                                    <p className="card-text"><strong>Located:</strong> Santiago, Chile</p>
                                 </div>
                             </div>
                         </div>
+
+
 
 
                     </div>
