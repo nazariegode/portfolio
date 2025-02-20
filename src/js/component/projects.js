@@ -79,17 +79,21 @@ const ProjectGallery = () => {
     return (
         <div className="container gallery-container" id='ProjectGallery'>
             <div className="row">
-                <h2 className="tittle mb-3"><i class="bi bi-caret-right-fill"></i>Projects</h2>
+                <h2 className="tittle mb-3"><i className="bi bi-caret-right-fill"></i>Projects</h2>
                 {projects.map((project, index) => (
                     <div className="col-md-4 mb-4" key={index}>
 
                         <div className="card project-card">
                             <img src={project.image} className="card-img-top project-image" alt={project.title} />
+
                             <div className="card-body">
                                 <h5 className="card-title">{project.title}</h5>
                                 <p className="card-text">{project.description}</p>
-                                <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="btn">See Project</a>
-                                <a href={project.codeUrl} target="_blank" rel="noopener noreferrer" className="btn ml-2">See Code</a>
+
+                                <div className="d-flex justify-content-center">
+                                    <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="btn me-2"><i className="bi bi-eye"></i>See Project</a>
+                                    <a href={project.codeUrl} target="_blank" rel="noopener noreferrer" className="btn"><i className="bi bi-code"></i>See Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -35,13 +35,42 @@
     color: #0F0F0F
 }
 
-.git {
+.git a {
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
     font-style: normal;
     margin-bottom: 20px;
-    color: #0F0F0F
+    color: #0F0F0F;
+
 }
+
+/* Asegúrate de que los enlaces no tengan texto en mayúsculas ni subrayados */
+a {
+    text-transform: none;
+    /* Evitar que se pongan en mayúsculas */
+    text-decoration: none;
+    /* Eliminar subrayado */
+}
+
+/* Si necesitas aplicar estos estilos solo a los enlaces dentro de la clase .git */
+.git a {
+    text-transform: none;
+    text-decoration: none;
+}
+
+/* Agregar un espacio entre el icono y el texto del enlace */
+.git i {
+    margin-right: 8px;
+    /* Puedes ajustar este valor según el espacio que desees */
+}
+
+/* Opcionalmente, puedes agregar estilo hover */
+a:hover,
+.git a:hover {
+    text-decoration: underline;
+    /* O cualquier otro estilo de hover */
+}
+
 
 .back-to-top {
     position: fixed;
@@ -49,7 +78,6 @@
     right: 20px;
     background-color: #0F0F0F;
     /* Color de fondo de la flecha */
-    color: #002281;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -57,19 +85,20 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 1px 10px rgba(255, 255, 255, 0.54);
     transition: opacity 0.3s ease;
     z-index: 1000;
     /* Asegúrate de que la flecha esté encima de otros elementos */
 }
 
+
 .back-to-top:hover {
-    background-color: #0F0F0F;
+    background-color: #ffffff;
     color: rgba(255, 255, 255, 0.672);
 }
 
 .back-to-top i {
     font-size: 25px;
+    color: #0b60ff;
 }
 
 .show {
@@ -91,6 +120,7 @@
     left: 0;
     margin-left: 100px;
 }
+
 
 @media (max-width: 768px) {
     .contact-image {

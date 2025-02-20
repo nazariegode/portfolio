@@ -68,27 +68,41 @@ const ContactMe = () => {
     return (
         <>
             <div className="contact-me container" id='ContactMe'>
-                <h2 className="tittle mb-3"><i class="bi bi-caret-right-fill"></i>Contact Me</h2>
+                <h2 className="tittle mb-3"><i className="bi bi-caret-right-fill"></i>Contact Me</h2>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="info-box position-relative">
                             <h3 className='sub-tittle'>Get in Touch</h3>
-                            <p className='info-text'>
+                            <p className='contact-text'>
                                 Always available for freelancing or Full time jobs if the right project comes along, Feel free to contact me.
                             </p>
+
                             <p className='git'>
-                                <i className="bi bi-geo-alt-fill"></i> Drogheda, Ireland
+                                <i className="bi bi-geo-alt-fill"></i>
+                                <a href="https://www.google.com/maps?q=Drogheda,+Ireland" target="_blank" rel="noopener noreferrer">
+                                    Drogheda, Ireland
+                                </a>
                             </p>
+
                             <p className='git'>
-                                <i className="bi bi-telephone-fill"></i> +353 89 954 4014
+                                <i className="bi bi-telephone-fill"></i>
+                                <a href="https://wa.me/353874971294" target="_blank" rel="noopener noreferrer">
+                                    +353 87 497 1294
+                                </a>
+
                             </p>
+
                             <p className='git'>
-                                <i className="bi bi-envelope-fill"></i> dnazariego@gmail.com
+                                <i className="bi bi-envelope-fill"></i>
+                                <a href="mailto:dnazariego@gmail.com">
+                                    dnazariego@gmail.com
+                                </a>
                             </p>
 
                             <img src={devImage} alt="Developer" className="contact-image position-absolute" />
                         </div>
                     </div>
+
 
 
                     <div className="col-md-6">
@@ -145,11 +159,13 @@ const ContactMe = () => {
                     </div>
                 </div>
             </div>
+
             {showBackToTop && (
                 <button className="back-to-top" onClick={scrollToTop}>
-                    <i class="bi bi-arrow-up-circle-fill"></i>
+                    <i className="bi bi-arrow-up-circle-fill"></i>
                 </button>
             )}
+
         </>
     );
 };
