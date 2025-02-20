@@ -1,25 +1,7 @@
 import React from 'react';
-import devImage from '../../img/dn5.png';
 import devImage2 from '../../img/dn6.png';
 import '../../styles/about.css';
-import html from '../../img/HTML.png';
-import css from '../../img/CSS.png';
-import js from '../../img/JS.png';
-import node from '../../img/Node.png';
-import bst from '../../img/Bootstrap.png';
-import flask from '../../img/Flask.png';
-import git from '../../img/Git.png';
-import github from '../../img/Github.png';
-import sql from '../../img/SQL.png';
-import saas from '../../img/Saas.png';
-import python from '../../img/Python.png';
-import react from '../../img/React.png';
-import wordpress from '../../img/wordpress.png';
-import canva from '../../img/canva.png';
-import tailwind from '../../img/tailwind.png';
-import claudinary from '../../img/claudinary.png';
-import firebase from '../../img/firebase.png';
-import vercel from '../../img/vercel.png';
+
 
 const Experience = () => {
     return (

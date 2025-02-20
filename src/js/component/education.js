@@ -7,7 +7,7 @@ const certificates = [
         institution: "4GEEKS ACADEMY",
         title: "Fullstack Developer",
         date: "Ago-2024",
-        file: "/4geekscertificate.png"  // Ruta dentro de "public"
+        file: "../../4geekscertificate.png"  // Ruta dentro de "public"
     },
     {
         institution: "CODERHOUSE",
