@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../../styles/about.css';
+import certificate1 from '../../img/4geekscertificate.png';
+import certificate2 from '../../img/coderhousecertificate.png';
 
 // Lista de certificados
 const certificates = [
@@ -7,13 +9,13 @@ const certificates = [
         institution: "4GEEKS ACADEMY",
         title: "Fullstack Developer",
         date: "Ago-2024",
-        file: "../../4geekscertificate.png"  // Ruta dentro de "public"
+        img: certificate1,
     },
     {
         institution: "CODERHOUSE",
         title: "React FrontEnd Developer",
         date: "Sept-2023",
-        file: "/coderhousecertificate.png"  // Ruta dentro de "public"
+        img: certificate2,
     }
 ];
 
@@ -38,10 +40,10 @@ const Education = () => {
                                         <p className="card-text mb-3"><strong>{cert.date}</strong></p>
 
                                         <img
-                                            src={cert.file}
+                                            src={cert.img}
                                             alt={`${cert.institution} Certificate`}
                                             className="certificate-img img-fluid rounded shadow-sm mb-3"
-                                            onClick={() => setSelectedCert(cert.file)}
+                                            onClick={() => setSelectedCert(cert.img)}
                                         />
 
 
@@ -49,12 +51,12 @@ const Education = () => {
                                         <div className="botones d-flex justify-content-center">
                                             <a
                                                 className="btn me-2"
-                                                onClick={() => setSelectedCert(cert.file)}
+                                                onClick={() => setSelectedCert(cert.img)}
                                             >
                                                 <i className="bi bi-eye"></i> See Certificate
                                             </a>
 
-                                            <a href={cert.file} download className="btn">
+                                            <a href={cert.img} download className="btn">
                                                 <i className="bi bi-download"></i> Download
                                             </a>
 

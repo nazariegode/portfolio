@@ -68,7 +68,7 @@ const ContactMe = () => {
     return (
         <>
             <div className="contact-me container" id='ContactMe'>
-                <h2 className="tittle mb-3"><i className="bi bi-caret-right-fill"></i>Contact Me</h2>
+                <h2 className="tittle col-md-12 mb-3"><i className="bi bi-caret-right-fill"></i>Contact Me</h2>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="info-box position-relative">
@@ -79,14 +79,14 @@ const ContactMe = () => {
 
                             <p className='git'>
                                 <i className="bi bi-geo-alt-fill"></i>
-                                <a href="https://www.google.com/maps?q=Drogheda,+Ireland" target="_blank" rel="noopener noreferrer">
+                                <a className="aces" href="https://www.google.com/maps?q=Drogheda,+Ireland" target="_blank" rel="noopener noreferrer">
                                     Drogheda, Ireland
                                 </a>
                             </p>
 
                             <p className='git'>
                                 <i className="bi bi-telephone-fill"></i>
-                                <a href="https://wa.me/353874971294" target="_blank" rel="noopener noreferrer">
+                                <a className="aces" href="https://wa.me/353874971294" target="_blank" rel="noopener noreferrer">
                                     +353 87 497 1294
                                 </a>
 
@@ -94,7 +94,7 @@ const ContactMe = () => {
 
                             <p className='git'>
                                 <i className="bi bi-envelope-fill"></i>
-                                <a href="mailto:dnazariego@gmail.com">
+                                <a className="aces" href="mailto:dnazariego@gmail.com">
                                     dnazariego@gmail.com
                                 </a>
                             </p>

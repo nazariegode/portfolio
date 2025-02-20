@@ -53,7 +53,7 @@ a {
 }
 
 /* Si necesitas aplicar estos estilos solo a los enlaces dentro de la clase .git */
-.git a {
+.git aces {
     text-transform: none;
     text-decoration: none;
 }
@@ -65,8 +65,8 @@ a {
 }
 
 /* Opcionalmente, puedes agregar estilo hover */
-a:hover,
-.git a:hover {
+aces:hover,
+.git aces:hover {
     text-decoration: underline;
     /* O cualquier otro estilo de hover */
 }
