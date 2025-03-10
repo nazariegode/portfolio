@@ -7,9 +7,17 @@ import projectImage5 from '../../img/traffic.png';
 import projectImage6 from '../../img/pets.png';
 import projectImage7 from '../../img/neigborsale.png';
 import projectImage8 from '../../img/nazarisushi2.png';
+import projectImage9 from '../../img/lumin.png';
 import '../../styles/projects.css';
 
 const projects = [
+    {
+        title: 'Lumin Chat (2025)',
+        description: 'Lumin is a messaging app.',
+        image: projectImage9,
+        projectUrl: 'https://luminchat-pi.vercel.app/',
+        codeUrl: 'https://github.com/nazariegode/luminchat'
+    },
     {
         title: 'Neigborsales (2024)',
         description: 'Website for the neighboord sale.',
@@ -17,7 +25,6 @@ const projects = [
         projectUrl: 'https://neigborsales.vercel.app/',
         codeUrl: 'https://github.com/nazariegode/neigborsales'
     },
-
     {
         title: 'Geek Food (2024)',
         description: 'Website for the sale of fast food.',
@@ -28,7 +35,7 @@ const projects = [
 
     {
         title: 'NazariSushi 2.0 (2024)',
-        description: 'Website for the sale of Sushi food.',
+        description: 'Website for the sale of Sushi.',
         image: projectImage8,
         projectUrl: 'https://nazarisushii.vercel.app/',
         codeUrl: 'https://github.com/nazariegode/nazarisushi-2.0'
@@ -36,7 +43,7 @@ const projects = [
 
     {
         title: 'StarWars Blog (2024)',
-        description: 'Web page making requests to an API.',
+        description: 'Website making requests.',
         image: projectImage2,
         projectUrl: 'https://start-wars-blog.vercel.app/',
         codeUrl: 'https://github.com/nazariegode/StartWars-Blog'
@@ -52,7 +59,7 @@ const projects = [
 
     {
         title: 'NazariSushi (2023)',
-        description: 'Website for the sale of Sushi food.',
+        description: 'Website for the sale of Sushi.',
         image: projectImage3,
         projectUrl: 'https://proyecto-nazariego.vercel.app/index.html',
         codeUrl: 'https://github.com/nazariegode/reactjs-nazariego'
