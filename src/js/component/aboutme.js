@@ -13,8 +13,18 @@ const AboutMe = () => {
 
                     <div className="about-text-container">
                         <h2 className="tittle mb-0"><i className="bi bi-caret-right-fill"></i>About Me</h2>
+
                         <h1 className="info-text mb-0">
-                            I’m a passionate web developer with a strong love for creating beautiful, responsive websites. I specialize in designing and building digital experiences that not only look amazing.
+                            Hi, I’m David, a 33-year-old web developer with a passion for creating beautiful, responsive websites.
+                        </h1>
+                        <h1 className="info-text mb-0">
+                            I specialize in frontend development, designing seamless digital experiences that work perfectly on any device.
+                        </h1>
+                        <h1 className="info-text mb-0">
+                            With an eye for detail and a focus on intuitive interfaces, I combine creativity with technical expertise to bring your ideas to life.
+                        </h1>
+                        <h1 className="info-text mb-0">
+                            Let’s build something amazing together!
                         </h1>
 
                     </div>

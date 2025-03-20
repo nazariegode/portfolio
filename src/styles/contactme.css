@@ -35,6 +35,24 @@
     color: #0F0F0F
 }
 
+.contact-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #0F0F0F
+}
+
+.form-control {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #0F0F0F
+}
+
 .git a {
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;

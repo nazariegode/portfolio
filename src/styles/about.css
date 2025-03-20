@@ -20,6 +20,8 @@
     flex: 1;
     min-width: 300px;
     margin: 10px;
+    gap: 10px;
+    text-align: justify;
 }
 
 .about-image {
@@ -28,10 +30,6 @@
     border-radius: 8px;
 }
 
-.about-text-container {
-    text-align: left;
-    margin-left: 20px;
-}
 
 .education-skills-container {
     margin-top: 80px;
