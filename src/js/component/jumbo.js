@@ -16,7 +16,7 @@ const Jumbo = () => {
                 <h2 className="info-name-text mb-0">
                     <Typewriter
                         options={{
-                            strings: ['Full Stack Developer', 'Front-End Developer', 'Back-End Developer', 'Scrum Master', 'UI Designer'],
+                            strings: ['Front-End Developer', 'UX/UI Designer', 'Brand Designer', 'Scrum Master', 'UI Designer'],
                             autoStart: true,
                             loop: true,
                             delay: 50,
