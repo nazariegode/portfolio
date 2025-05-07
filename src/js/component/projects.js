@@ -41,21 +41,21 @@ const projects = [
         codeUrl: 'https://github.com/nazariegode/nazarisushi-2.0'
     },
 
-    {
-        title: 'StarWars Blog (2024)',
-        description: 'Website making requests.',
-        image: projectImage2,
-        projectUrl: 'https://start-wars-blog.vercel.app/',
-        codeUrl: 'https://github.com/nazariegode/StartWars-Blog'
-    },
+    /*  {
+         title: 'StarWars Blog (2024)',
+         description: 'Website making requests.',
+         image: projectImage2,
+         projectUrl: 'https://start-wars-blog.vercel.app/',
+         codeUrl: 'https://github.com/nazariegode/StartWars-Blog'
+     }, */
 
-    {
-        title: 'Pets (2024)',
-        description: 'Website for the sale of pets.',
-        image: projectImage6,
-        projectUrl: 'https://landing-page-with-react-three.vercel.app/',
-        codeUrl: 'https://github.com/nazariegode/Landing-Page-with-React'
-    },
+    /*  {
+         title: 'Pets (2024)',
+         description: 'Website for the sale of pets.',
+         image: projectImage6,
+         projectUrl: 'https://landing-page-with-react-three.vercel.app/',
+         codeUrl: 'https://github.com/nazariegode/Landing-Page-with-React'
+     }, */
 
     {
         title: 'NazariSushi (2023)',
@@ -65,21 +65,21 @@ const projects = [
         codeUrl: 'https://github.com/nazariegode/reactjs-nazariego'
     },
 
-    {
-        title: 'Tiktak Toe (2024)',
-        description: 'Fun tiktactoe game.',
-        image: projectImage4,
-        projectUrl: 'https://tic-tac-toe-con-react-js.vercel.app/',
-        codeUrl: 'https://github.com/nazariegode/TicTacToe-con-React.js'
-    },
+    /*  {
+         title: 'Tiktak Toe (2024)',
+         description: 'Fun tiktactoe game.',
+         image: projectImage4,
+         projectUrl: 'https://tic-tac-toe-con-react-js.vercel.app/',
+         codeUrl: 'https://github.com/nazariegode/TicTacToe-con-React.js'
+     }, */
 
-    {
-        title: 'Traffic Light (2024)',
-        description: 'Fun TrafficLight game.',
-        image: projectImage5,
-        projectUrl: 'https://traffic-light-liard.vercel.app/',
-        codeUrl: 'https://github.com/nazariegode/Traffic-Light'
-    },
+    /*  {
+         title: 'Traffic Light (2024)',
+         description: 'Fun TrafficLight game.',
+         image: projectImage5,
+         projectUrl: 'https://traffic-light-liard.vercel.app/',
+         codeUrl: 'https://github.com/nazariegode/Traffic-Light'
+     }, */
 ];
 
 const ProjectGallery = () => {
