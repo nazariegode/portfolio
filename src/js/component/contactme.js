@@ -70,12 +70,12 @@ const ContactMe = () => {
             <div className="contact-me container" id='ContactMe'>
                 <h2 className="tittle col-md-12 mb-3"><i className="bi bi-caret-right-fill"></i>Contact Me</h2>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 ">
                         <div className="info-box position-relative">
                             <h3 className='sub-tittle'>Get in Touch</h3>
-                            <p className='contact-text'>
-                                Always available for freelancing or Full time jobs if the right project comes along, Feel free to contact me.
-                            </p>
+                            <h1 className='info-text'>
+                                Always available for freelancing or full time jobs if the right project comes along, feel free to contact me.
+                            </h1>
 
                             <p className='git'>
                                 <i className="bi bi-geo-alt-fill"></i>

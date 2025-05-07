@@ -9,18 +9,23 @@
 .form-contact {
     transition: transform 0.3s;
     background-color: #ffffff;
-    border: solid 1px #0F0F0F;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 300;
     font-style: normal;
-    border-radius: 8px;
+    border-radius: 30px;
+    border: none;
     padding: 10px;
 }
 
 .form-label {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
     color: #0F0F0F;
+    margin-bottom: 0px;
 }
 
 .form {
@@ -28,38 +33,52 @@
 }
 
 .sub-tittle {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
     font-style: normal;
     margin-bottom: 20px;
-    color: #0F0F0F
+    padding-top: 20px;
+    color: #0F0F0F;
+    text-transform: uppercase;
 }
 
 .contact-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
     text-align: justify;
-    font-weight: 300;
     margin-bottom: 20px;
-    color: #0F0F0F
+    color: #F0EDCF;
 }
 
 .form-control {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
     text-align: justify;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #0F0F0F
 }
 
 .git a {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
     font-style: normal;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
     color: #0F0F0F;
+}
 
+.info-box p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding: 0px;
+    color: #F0EDCF;
+    text-align: justify;
 }
 
 /* Asegúrate de que los enlaces no tengan texto en mayúsculas ni subrayados */
@@ -134,7 +153,7 @@ aces:hover,
     z-index: -1;
     object-fit: cover;
     box-sizing: border-box;
-    top: 50px;
+    top: 10px;
     left: 0;
     margin-left: 100px;
 }

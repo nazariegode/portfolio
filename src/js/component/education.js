@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../../styles/about.css';
 import certificate1 from '../../img/4geekscertificate.png';
 import certificate2 from '../../img/coderhousecertificate.png';
+import '../../styles/about.css';
 
 // Lista de certificados
 const certificates = [
@@ -42,7 +42,7 @@ const Education = () => {
                                         <img
                                             src={cert.img}
                                             alt={`${cert.institution} Certificate`}
-                                            className="certificate-img img-fluid rounded shadow-sm mb-3"
+                                            className="certificate-img img-fluid rounded-4 shadow-sm mb-3"
                                             onClick={() => setSelectedCert(cert.img)}
                                         />
 
@@ -53,11 +53,11 @@ const Education = () => {
                                                 className="btn me-2"
                                                 onClick={() => setSelectedCert(cert.img)}
                                             >
-                                                <i className="bi bi-eye"></i> See Certificate
+                                                <i className="bi bi-eye"></i>
                                             </a>
 
                                             <a href={cert.img} download className="btn">
-                                                <i className="bi bi-download"></i> Download
+                                                <i className="bi bi-download"></i>
                                             </a>
 
                                         </div>

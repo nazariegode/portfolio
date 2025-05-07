@@ -10,10 +10,10 @@ const Jumbo = () => {
                 <img src={devImage} alt="Developer" className="home-image" />
             </div>
             <div className="home-text-container">
-                <h3 className="info-text mb-0">Hi! I'm </h3>
+                <h3 className="info-name-text mb-0">Hi! I'm </h3>
                 <h1 className="home-name mb-0">David Nazariego</h1>
 
-                <h2 className="info-text text-white mb-0">
+                <h2 className="info-name-text mb-0">
                     <Typewriter
                         options={{
                             strings: ['Full Stack Developer', 'Front-End Developer', 'Back-End Developer', 'Scrum Master', 'UI Designer'],

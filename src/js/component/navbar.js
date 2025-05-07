@@ -9,7 +9,7 @@ const Navbar = () => {
                 <span className="navbar-brand d-lg-none" href="#Jumbo"></span>
 
                 {/* Nombre completo para pantallas grandes */}
-                <a className="nav-link navbar-brand d-none d-lg-block" href="#Jumbo">David Nazariego</a>
+                <a className="nav-link navbar-brand d-none d-lg-block" href="#Jumbo"></a>
 
                 {/* Botón de hamburguesa */}
                 <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

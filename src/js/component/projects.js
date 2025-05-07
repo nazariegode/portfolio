@@ -98,9 +98,9 @@ const ProjectGallery = () => {
                                 <p className="card-text">{project.description}</p>
 
                                 <div className="d-flex justify-content-center">
-                                    <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="btn me-2"><i className="bi bi-eye"></i>See Project</a>
-                                    <a href={project.codeUrl} target="_blank" rel="noopener noreferrer" className="btn"><i className="bi bi-code"></i>See Code</a>
-                                </div>
+                                    <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="btn me-2"><i className="bi bi-eye"></i></a>
+                                    {/*                                     <a href={project.codeUrl} target="_blank" rel="noopener noreferrer" className="btn"><i className="bi bi-code"></i></a>
+ */}                                </div>
                             </div>
                         </div>
                     </div>

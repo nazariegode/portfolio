@@ -14,6 +14,9 @@
     /* Ajusta la imagen sin distorsionarla */
 }
 
+.card {
+    border-radius: 30px;
+}
 
 .about-image-container,
 .about-text-container {
@@ -27,7 +30,7 @@
 .about-image {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 
@@ -49,17 +52,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 2rem;
 }
 
 .skill-circle {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20%;
-    border: 1px solid #41413D;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #ffffff;
     ;
@@ -78,14 +80,13 @@
 
 
 .btn {
-    background-color: #616161;
-    color: white;
-    border: solid 1px #0F0F0F;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
+    background-color: #0B60B0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
     font-style: normal;
+    color: white;
+    border-radius: 30px;
 }
 
 .btn:hover {
@@ -93,9 +94,18 @@
     color: white;
 }
 
+.card-experience {
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    width: auto;
+}
+
 .card-title {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
     font-style: normal;
     color: #0F0F0F;
     display: flex;
@@ -104,14 +114,40 @@
 }
 
 .card-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: #0F0F0F;
+    margin: 0px;
+    padding: 0px;
+    gap: 5px;
+}
+
+.exp-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
     font-style: normal;
     color: #0F0F0F;
     display: flex;
+    flex-direction: row;
     justify-content: start;
     align-items: start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.exp-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    color: #0F0F0F;
     margin: 0px;
     padding: 0px;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../styles/about.css';
 import html from '../../img/HTML.png';
 import css from '../../img/CSS.png';
 import js from '../../img/JS.png';
@@ -18,6 +17,7 @@ import tailwind from '../../img/tailwind.png';
 import claudinary from '../../img/claudinary.png';
 import firebase from '../../img/firebase.png';
 import vercel from '../../img/vercel.png';
+import '../../styles/about.css';
 
 const Skills = () => {
     return (

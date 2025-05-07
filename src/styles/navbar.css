@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .navbar {
     background-color: #000000;
 }
 
 .nav-link {
-    color: #0b60ff;
+    color: #0B60B0;
     text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
     font-style: normal;
+    text-transform: uppercase;
 }
 
 .nav-link:hover {
-    color: #ffffff;
+    color: #F0EDCF;
 }
 
 .nav-img {
@@ -31,7 +35,7 @@
         display: none !important;
         color: #0b60ff;
         text-decoration: none;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 25px;
         font-style: normal;
     }
@@ -41,7 +45,7 @@
         display: block !important;
         color: #0b60ff;
         text-decoration: none;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 25px;
         font-style: normal;
     }

@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-color: #1b57d0;
+    background-color: #0B60B0;
 }
 
 .tittle {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
     font-style: normal;
+    text-transform: uppercase;
     color: rgb(0, 0, 0);
 }
 
 .info-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    font-style: normal;
+    color: #F0EDCF;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-justify: auto;
 }
 
 .bi {
